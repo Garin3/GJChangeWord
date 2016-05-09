@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/zhanShen3/GJChangeWord.git", :tag => "0.0.2" }
 
-  s.source_files  = "GJChangeWorld/*.{h,m}"
+  s.source_files  = "*.{h,m}"
 
    s.requires_arc = true
 
