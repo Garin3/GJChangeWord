@@ -16,6 +16,7 @@
 		39F94E3F1CE078980069FFE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F94E3D1CE078980069FFE9 /* LaunchScreen.storyboard */; };
 		39F94E4A1CE078980069FFE9 /* GJChangeWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F94E491CE078980069FFE9 /* GJChangeWorldTests.m */; };
 		39F94E551CE078980069FFE9 /* GJChangeWorldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F94E541CE078980069FFE9 /* GJChangeWorldUITests.m */; };
+		39F94E671CE0B12B0069FFE9 /* GJChangeChina.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F94E661CE0B12B0069FFE9 /* GJChangeChina.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		39F94E501CE078980069FFE9 /* GJChangeWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJChangeWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F94E541CE078980069FFE9 /* GJChangeWorldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJChangeWorldUITests.m; sourceTree = "<group>"; };
 		39F94E561CE078980069FFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F94E651CE0B12B0069FFE9 /* GJChangeChina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJChangeChina.h; sourceTree = "<group>"; };
+		39F94E661CE0B12B0069FFE9 /* GJChangeChina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJChangeChina.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		39F94E201CE078980069FFE9 = {
 			isa = PBXGroup;
 			children = (
+				39F94E651CE0B12B0069FFE9 /* GJChangeChina.h */,
+				39F94E661CE0B12B0069FFE9 /* GJChangeChina.m */,
 				39F94E2B1CE078980069FFE9 /* GJChangeWorld */,
 				39F94E481CE078980069FFE9 /* GJChangeWorldTests */,
 				39F94E531CE078980069FFE9 /* GJChangeWorldUITests */,
@@ -278,6 +283,7 @@
 				39F94E311CE078980069FFE9 /* AppDelegate.m in Sources */,
 				39F94E341CE078980069FFE9 /* MasterViewController.m in Sources */,
 				39F94E2E1CE078980069FFE9 /* main.m in Sources */,
+				39F94E671CE0B12B0069FFE9 /* GJChangeChina.m in Sources */,
 				39F94E371CE078980069FFE9 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
